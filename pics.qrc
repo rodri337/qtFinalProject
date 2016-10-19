@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file>Icons/edit-file-icon.png</file>
+        <file>Icons/new-file-icon.png</file>
+        <file>Icons/search_files.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Icons/logout-icon.png</file>
+        <file>Icons/notes_mainLabel.png</file>
+        <file>Icons/Science-School-icon.png</file>
+        <file>Icons/user.png</file>
+        <file>Icons/Diploma-Certificate-icon.png</file>
+    </qresource>
+</RCC>
