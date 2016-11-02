@@ -17,75 +17,185 @@
    <widget class="QLabel" name="PictureIcon">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>151</width>
-      <height>151</height>
+      <x>60</x>
+      <y>60</y>
+      <width>141</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="pics.qrc">:/Icons/notes_mainLabel.png</pixmap>
+     <pixmap resource="pics.qrc">:/Icons/user.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QLabel" name="connectionLabelStatus">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>190</y>
-      <width>51</width>
-      <height>181</height>
+      <x>660</x>
+      <y>480</y>
+      <width>121</width>
+      <height>31</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QLabel" name="UserIcon">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap resource="pics.qrc">:/Icons/user.png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="SchoolIcon">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap resource="pics.qrc">:/Icons/Science-School-icon.png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="MajorIcon">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap resource="pics.qrc">:/Icons/Diploma-Certificate-icon.png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <property name="text">
+     <string>Connection</string>
+    </property>
    </widget>
-   <zorder>layoutWidget</zorder>
+   <widget class="QLabel" name="infoLabel">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/Downloads/LogoScopic(1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="schoolLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>340</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/Downloads/LogoScopic(3).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="majorLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/Downloads/LogoScopic(2).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="noteSpaceLogo">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>20</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/Icons/noteSpaceLogo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userNameLine">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="schoolLine">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>350</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="majorLine">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>400</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="load">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>460</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="userNameLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/Downloads/LogoScopic.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
    <zorder>PictureIcon</zorder>
+   <zorder>connectionLabelStatus</zorder>
+   <zorder>infoLabel</zorder>
+   <zorder>userNameLabel</zorder>
+   <zorder>schoolLabel</zorder>
+   <zorder>majorLabel</zorder>
+   <zorder>noteSpaceLogo</zorder>
+   <zorder>userNameLine</zorder>
+   <zorder>schoolLine</zorder>
+   <zorder>userNameLabel</zorder>
+   <zorder>majorLine</zorder>
+   <zorder>load</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -100,6 +210,7 @@
     <property name="title">
      <string>File</string>
     </property>
+    <addaction name="actionCreate_Note"/>
     <addaction name="actionAdd_Note"/>
     <addaction name="actionView_Notes"/>
     <addaction name="actionLog_Out"/>
@@ -114,9 +225,15 @@
      <string>Edit</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
    <addaction name="menuHelp"/>
+   <addaction name="menuTools"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QToolBar" name="toolBar">
@@ -129,6 +246,7 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="actionCreate_Note"/>
    <addaction name="actionAdd_Note"/>
    <addaction name="actionView_Notes"/>
    <addaction name="actionLog_Out"/>
@@ -159,6 +277,15 @@
    </property>
    <property name="text">
     <string>Log Out</string>
+   </property>
+  </action>
+  <action name="actionCreate_Note">
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/Icons/Document-Write-icon.png</normaloff>:/Icons/Document-Write-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Create Note</string>
    </property>
   </action>
  </widget>

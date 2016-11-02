@@ -17,18 +17,21 @@ SOURCES += main.cpp\
     searchnote.cpp \
     note.cpp \
     createuser.cpp \
-    profile.cpp
+    profile.cpp \
+    notecreator.cpp
 
 HEADERS  += login.h \
     searchnote.h \
     note.h \
     createuser.h \
-    profile.h
+    profile.h \
+    notecreator.h
 
 FORMS    += login.ui \
     searchnote.ui \
     createuser.ui \
-    profile.ui
+    profile.ui \
+    notecreator.ui
 
 RESOURCES += \
     pics.qrc
