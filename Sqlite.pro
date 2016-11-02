@@ -35,3 +35,6 @@ FORMS    += login.ui \
 
 RESOURCES += \
     pics.qrc
+
+DISTFILES += \
+    ../../../Desktop/sqLite/notesUser.sqlite
