@@ -4,6 +4,7 @@
 #include <fstream>
 #include <fstream>
 #include <cstdlib>
+#include <QDebug>
 
 
 using namespace std;
@@ -13,7 +14,7 @@ Note::Note() {
     indexCounter = 0;
 }
 
-Note::Note(string name) {
+Note::Note(QString name) {
     oneNote current;
     current.noteName = name;
     current.NoteId = indexCounter; //save the index counter as an ID
@@ -28,28 +29,23 @@ void Note::printNoteList() {
     for (int i = 0; i < indexCounter; i++) {
         oneNote current;
         current = myList[i];
-        cout << current.noteName << endl;
+        qDebug()<<current.noteName;
 
     }
 }
 
 
-void Note::addNote(std::string note) {
+void Note::addNote(QString note) {
 
     oneNote current;
     current.noteName = note;
     current.NoteId = indexCounter; //save the index counter as an ID
     myList[indexCounter] = current;
     indexCounter++;
-
-    cout << "------------------------------------------------" << endl;
-    cout << "Name File to View: " << endl;
-    string fileName;
-    cin >> fileName;
-    writeNote(fileName, note);
 }
 
-void Note::writeNote(string fileName, string noteName) {
+
+/*void Note::writeNote(string fileName, string noteName) {
     cout << "------------------------------------------------" << endl;
     cout << endl;
     cout << "Content on file: " << endl;
@@ -67,7 +63,7 @@ void Note::writeNote(string fileName, string noteName) {
     }
 
 
-}
+}*/
 
 
 

@@ -65,3 +65,16 @@ void Login::on_pushButton_clicked()
     }
 
 }
+
+
+//take to the create user window
+
+void Login::on_pushButton_2_clicked()
+{
+    connClose();
+    CreateUser openCreate;
+    openCreate.setModal(true);
+    this->hide();
+    openCreate.exec();
+
+}

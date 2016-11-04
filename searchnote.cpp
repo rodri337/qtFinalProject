@@ -29,11 +29,20 @@ void SearchNote::on_searchButton_clicked()
 }
 
 
+
+//Adds the note to the list array after all the
+//information has been enter
+//stores it in the note variables
+void SearchNote::on_addNoteYes_clicked()
+{
+    QString name = ui->nameLineEdit->text();
+
+}
+
 //add note button
 //must add to the array of list
 
-void SearchNote::on_addNoteYes_clicked()
+void SearchNote::on_quitButton_clicked()
 {
-
-
+    this->hide();
 }

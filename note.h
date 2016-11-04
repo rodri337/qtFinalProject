@@ -7,10 +7,10 @@
 
 struct oneNote {
     int NoteId;
-    std::string noteName;
-    std::string noteComments; //store the comments
-    std::string noteCourse;
-    std::string pathToFile;
+    QString noteName;
+    QString noteComments; //store the comments
+    QString noteCourse;
+    QString pateString;
 };
 
 
@@ -24,8 +24,8 @@ private:
 
 public:
     Note();
-    Note(std::string name);
-    void addNote(std::string note);
+    Note(QString name);
+    void addNote(QString note);
     void printNoteList();
     void writeNote(std::string fileName, std::string noteName);
 

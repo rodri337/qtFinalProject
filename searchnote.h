@@ -7,6 +7,7 @@
 #include <QMessageBox>
 #include <search.h>
 #include <QMenu>
+#include "note.h"
 
 #include <QDialog>
 
@@ -26,6 +27,8 @@ private slots:
     void on_searchButton_clicked();
 
     void on_addNoteYes_clicked();
+
+    void on_quitButton_clicked();
 
 private:
     Ui::SearchNote *ui;
