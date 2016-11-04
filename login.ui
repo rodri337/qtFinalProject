@@ -89,7 +89,10 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="pics.qrc">:/Icons/noteSpaceLogo.png</pixmap>
+     <pixmap resource="pics.qrc">:/Icons/notes_mainLabel.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
