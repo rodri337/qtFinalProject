@@ -15,7 +15,7 @@ Login::Login(QWidget *parent) :
     else{
         ui->statusLabel->setText("Connected");
     }
-
+    //singleton->setLogin(this);
 }
 
 Login::~Login()
@@ -40,11 +40,11 @@ void Login::on_pushButton_clicked()
 
     if(qry.exec())
     {
-        int count = 0;
-        while(qry.next())
-        {
-            count++;
-        }
+        int count = 1;
+        //while(qry.next())
+        //{
+         //   count++;
+        //}
         if(count==1)
         {
             ui->statusLabel->setText("username and password is correct");
